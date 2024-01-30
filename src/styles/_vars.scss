@@ -1,0 +1,28 @@
+// Base
+$base-font-family: "Manrope", "Arial",
+  sans-serif;
+$base-font-weight: 400;
+$base-font-size: var(--text-size-base);
+$base-line-height: var(
+  --text-line-height-base
+);
+$base-color: var(--color-base);
+$base-background: var(
+  --background-color
+);
+$backdrop: var(--color-backdrop);
+
+$duration: 0.3s;
+
+:root {
+  --background-color: #fff;
+  --color-base: #2c2c2c;
+
+  --text-size-base: 1.6rem;
+  --text-line-height-base: 1.4;
+
+  --color-backdrop: rgba(
+    var(--color-base-rgb),
+    0.1
+  );
+}

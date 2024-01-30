@@ -1,0 +1,17 @@
+{
+  "title": "Astro Gulp Tailwind",
+  "links": [
+    {
+      "name": "Astro Build",
+      "link": "https://astro.build/"
+    },
+    {
+      "name": "Gulp",
+      "link": "https://gulpjs.com/"
+    },
+    {
+      "name": "TailwindCSS",
+      "link": "https://tailwindcss.com/"
+    }
+  ]
+}

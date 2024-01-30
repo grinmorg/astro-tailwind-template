@@ -1,0 +1,43 @@
+---
+import "@styles/style.scss";
+import site from "@data/site.json";
+
+export interface Props {
+  title?: string;
+  class?: string;
+}
+
+const { title, class: className } =
+  Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang='ru'>
+  <head>
+    <title>
+      {site.title} - {title}
+    </title>
+    <meta charset='UTF-8' />
+    <meta
+      name='viewport'
+      content='width=device-width'
+    />
+  </head>
+  <body>
+    <div
+      class:list={[
+        "wrapper",
+        className,
+      ]}>
+      <main class='main'>
+        <slot />
+      </main>
+    </div>
+
+    <!-- <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script> -->
+    <!-- <script src="https://player.vimeo.com/api/player.js"></script> -->
+
+    <script src='../scripts/app.js'
+    ></script>
+  </body>
+</html>

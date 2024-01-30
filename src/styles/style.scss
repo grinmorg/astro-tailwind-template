@@ -1,0 +1,16 @@
+// Variables
+@import "vars";
+
+// Mixins
+@import "mixins";
+
+// Fonts
+@import "fonts";
+
+body {
+  font-family: $base-font-family;
+  font-weight: $base-font-weight;
+  color: $base-color;
+}
+
+@import "./modules/modal";
