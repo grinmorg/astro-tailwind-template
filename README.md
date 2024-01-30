@@ -1,4 +1,6 @@
-# Astro Gulp Starter Template
+# Astro Starter Template
+
+## For HTML coding with Tailwind CSS
 
 ## Project Structure
 
